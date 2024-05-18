@@ -205,13 +205,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/fasilofficial",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/leetcode.svg",
+    link: "https://leetcode.com/u/fasilofficial/",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/mfasilofficial/",
   },
 ];
