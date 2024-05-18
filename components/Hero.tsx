@@ -1,9 +1,8 @@
 import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-import ShimmerButton from "./ui/ShimmerButton";
-import Link from "next/link";
 import { FaLocationArrow } from "react-icons/fa6";
+import MagicButton from "./MagicButton";
 
 const Hero = () => {
   return (
@@ -39,13 +38,13 @@ const Hero = () => {
             Hey, I&apos;m Fasil, a Full stack developer based in Indian
           </p>
 
-          <Link href="/about">
-            <ShimmerButton
+          <a href="#about">
+            <MagicButton
               title="More about me"
               icon={<FaLocationArrow />}
               position="right"
             />
-          </Link>
+          </a>
         </div>
       </div>
     </div>

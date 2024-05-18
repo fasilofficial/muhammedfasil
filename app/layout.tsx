@@ -16,15 +16,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <ThemeProvider
-        attribute="class"
-        defaultTheme="dark"
-        enableSystem
-        disableTransitionOnChange
-      >
-        <body className={inter.className}>{children}</body>
-      </ThemeProvider>
+    <html lang="en" suppressHydrationWarning>
+      <head>{/* <link rel="icon" href="/jsm-logo.png" sizes="any" /> */}</head>
+      <body className={inter.className}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
