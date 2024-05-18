@@ -35,7 +35,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hey, I&apos;m Fasil, a Full stack developer based in Indian
+            Hey, I&apos;m Fasil, a Full stack developer based in India
           </p>
 
           <a href="#about">
