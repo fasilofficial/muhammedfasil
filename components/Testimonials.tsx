@@ -6,7 +6,7 @@ const Testimonials = () => {
   return (
     <div className="py-20" id="testimonials">
       <h1 className="heading">
-        Kinds words from <span className="text-purple">satisfied client</span>
+        Kind words from <span className="text-purple">satisfied client</span>
       </h1>
       <div className="flex flex-col items-center lg:mt-10">
         <InfiniteMovingCards

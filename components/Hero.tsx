@@ -1,10 +1,20 @@
+"use client";
 import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaDownload, FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
 
 const Hero = () => {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/Muhammed_Fasil.pdf";
+    link.download = "Muhammed_Fasil.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="pb-20 pt-36">
       <div>
@@ -38,13 +48,12 @@ const Hero = () => {
             Hey, I&apos;m Fasil, a Full stack developer based in India
           </p>
 
-          <a href="#about">
-            <MagicButton
-              title="More about me"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
+          <MagicButton
+            title="Get resume"
+            icon={<FaDownload />}
+            position="right"
+            handleClick={handleDownload}
+          />
         </div>
       </div>
     </div>
