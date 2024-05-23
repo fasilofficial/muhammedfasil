@@ -115,8 +115,15 @@ export const projects = [
     title: "Woom - Video conferencing app",
     des: "An enterprise-ready video conferencing app using Stream.",
     img: "/project-images/p4.png",
-    iconLists: ["/next.svg", "/ts.svg", "/tail.svg", "/stream.svg", "/c.svg", "shad.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    iconLists: [
+      "/next.svg",
+      "/ts.svg",
+      "/tail.svg",
+      "/stream.svg",
+      "/c.svg",
+      "shad.svg",
+    ],
+    link: "https://woom.vercel.app/",
   },
   {
     id: 5,
@@ -124,7 +131,7 @@ export const projects = [
     des: "A modern movie application developed using React JS with features like pagination, searching, filtering and many more features. Filmpire uses Alan AI for making the application more interactive and simple to use by the users.",
     img: "/project-images/p5.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    link: "https://filmpire-app.netlify.app/",
   },
   {
     id: 6,
@@ -132,7 +139,7 @@ export const projects = [
     des: "Fash-on is a e-commerce web application developed using Node.js, Express.js, and MongoDB",
     img: "/project-images/p6.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    link: "https://fashon.store/",
   },
   {
     id: 7,
@@ -140,7 +147,7 @@ export const projects = [
     des: "A modern E-commerce web application developed using Next JS and Sanity content management system.",
     img: "/project-images/p7.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    link: "http://phanox-sounds.vercel.app/",
   },
   {
     id: 8,
@@ -148,7 +155,7 @@ export const projects = [
     des: "summifyAI is an AI powered article summarizer. summifyAI transforms lengthy articles into clear and concise summaries for you.",
     img: "/project-images/p8.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    link: "https://summify-ai.vercel.app/",
   },
   {
     id: 9,
@@ -156,48 +163,32 @@ export const projects = [
     des: "Clone page of Apple iPhone 15 pro page with complex animations using GSAP and 3D model view of the product using Threejs.",
     img: "/project-images/p9.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    link: "https://iphone-15-pro-page.vercel.app/",
   },
   {
     id: 10,
     title: "Vibe - Social media app",
-    des: "Recreated a minimal Figma clone using Fabric.js and LiveBlocks for real-time collaboration feature.",
+    des: "Modern social media application with features like text, video chats and blue tick badge.",
     img: "/project-images/p10.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    link: "https://vibe-client.vercel.app/",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "hardworking, passionate, very kind person. This man is an inspiration to many generations to come. Keep inspiring man, long way to go :)",
+    name: "Mohammed Rizwan",
+    title: "",
+    profile: "./testimonials/rizwan.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Fasil was an absolute pleasure. His exceptional design skills, keen attention to detail, and unwavering dedication transformed my vision into a stunning reality. Highly recommended!",
+    name: "Alvin Ninan",
+    title: "UI/UX Designer",
+    profile: "./testimonials/alvin.png",
   },
 ];
 

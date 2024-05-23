@@ -5,7 +5,7 @@ const Expertise = () => {
   return (
     <div className="py-20" id="experience">
       <h1 className="heading">
-        My <span className="text-purple">expertise</span>
+        My <span className="text-blue-400">expertise</span>
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full mt-20">
         <WobbleCard

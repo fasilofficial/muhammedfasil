@@ -8,7 +8,7 @@ const RecentProjects = () => {
     <div className="py-20" id="projects">
       <h1 className="heading">
         A small collection of{" "}
-        <span className="text-purple">recent projects</span>
+        <span className="text-blue-400">recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
@@ -31,7 +31,7 @@ const RecentProjects = () => {
               </p>
 
               <div className="flex items-center justify-between mt-7 mb-3">
-                <div className="flex items-center">
+                {/* <div className="flex items-center">
                   {iconLists.map((icon, index) => (
                     <div
                       key={icon}
@@ -41,17 +41,17 @@ const RecentProjects = () => {
                       <img src={icon} alt={icon} className="p-2" />
                     </div>
                   ))}
-                </div>
+                </div> */}
 
                 <div className="flex justify-center items-center">
                   <a
                     href={link}
                     target="_blank"
-                    className="flex lg:text-xl md:text-xs text-sm text-purple "
+                    className="flex lg:text-xl md:text-xs text-sm text-blue-400 "
                   >
                     Visit live site
                   </a>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  <FaLocationArrow className="ms-3" color="#60A5FA" />
                 </div>
               </div>
             </PinContainer>

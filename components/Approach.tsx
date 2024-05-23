@@ -8,7 +8,7 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My way of <span className="text-purple">doing</span>
+        My way of <span className="text-blue-400">doing</span>
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card

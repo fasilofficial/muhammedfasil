@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Muhammed Fasil | Portfolio",
   description: "A modern and minimalist portfolio",
+  icons: { icon: "/exp1.svg" },
 };
 
 export default function RootLayout({
